@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Shopify.API.Abstract;
 using Shopify.API.Data;
+using Shopify.API.Implimintation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddSwaggerGen();
 var connection = builder.Configuration.GetConnectionString("defaultConnection") 
 	?? throw new NullReferenceException("can't find Connection strings");
 builder.Services.AddDbContext<ApplicationDbcontext>(options => options.UseSqlServer(connection));
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
