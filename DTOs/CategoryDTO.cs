@@ -1,5 +1,4 @@
-﻿using Shopify.API.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Shopify.API.DTOs
 {
