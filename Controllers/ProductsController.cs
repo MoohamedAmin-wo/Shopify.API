@@ -1,12 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Shopify.API.Abstract;
-using Shopify.API.DTOs;
-using Shopify.API.Helpers;
-using Shopify.API.Models;
-
-namespace Shopify.API.Controllers
+﻿namespace Shopify.API.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

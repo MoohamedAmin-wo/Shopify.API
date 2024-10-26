@@ -1,6 +1,4 @@
-﻿using Shopify.API.Models;
-
-namespace Shopify.API.Abstract
+﻿namespace Shopify.API.Abstract
 {
 	public interface IUnitOfWork
 	{

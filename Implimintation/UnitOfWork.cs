@@ -1,8 +1,4 @@
-﻿using Shopify.API.Abstract;
-using Shopify.API.Data;
-using Shopify.API.Models;
-
-namespace Shopify.API.Implimintation
+﻿namespace Shopify.API.Implimintation
 {
 	public class UnitOfWork : IUnitOfWork
 	{
