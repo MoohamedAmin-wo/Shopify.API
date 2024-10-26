@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eXtKkc1wsDKSMBz+WYBUMzvaipDW3cXxwPwzdNnc1/4=",
+  "Source": "Shopify.API",
+  "BasePath": "_content/Shopify.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,5 +1,8 @@
-﻿namespace Shopify.API.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Shopify.API.Models
 {
+	[Index(nameof(Name),IsUnique = true)]
 	public class Category : BaseEntity
 	{
 		public string Name { get; set; } 
