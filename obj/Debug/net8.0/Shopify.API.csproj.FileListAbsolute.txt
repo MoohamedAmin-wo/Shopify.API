@@ -141,3 +141,4 @@ D:\Applications\API Applications\Shopify\Shopify.API\obj\Debug\net8.0\refint\Sho
 D:\Applications\API Applications\Shopify\Shopify.API\obj\Debug\net8.0\Shopify.API.pdb
 D:\Applications\API Applications\Shopify\Shopify.API\obj\Debug\net8.0\Shopify.API.genruntimeconfig.cache
 D:\Applications\API Applications\Shopify\Shopify.API\obj\Debug\net8.0\ref\Shopify.API.dll
+D:\Applications\API Applications\Shopify\Shopify.API\bin\Debug\net8.0\AutoMapper.dll
