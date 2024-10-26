@@ -22,11 +22,11 @@ namespace Shopify.API.Implimintation
 		}
 		public ValueTask<EntityEntry<T>> DeleteAsync(T entity)
 		{
-			return ValueTask.FromResult(_entities.Update(entity));
+			return ValueTask.FromResult(_entities.Remove(entity));
 		}
 		public ValueTask<EntityEntry<T>> UpdateAsync(T entity)
 		{
-			return ValueTask.FromResult(_entities.Remove(entity));
+			return ValueTask.FromResult(_entities.Update(entity));
 		}
 
 		public async Task<T?> FindByIdAsync(int id)
