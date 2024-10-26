@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Shopify.API.DTOs
+﻿namespace Shopify.API.DTOs
 {
 	public record CategoryDTO
 	{

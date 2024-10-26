@@ -1,0 +1,12 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Shopify.API.Abstract;
+global using Shopify.API.Data;
+global using Shopify.API.Models;
+global using System.Linq.Expressions;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Mvc;
+global using Shopify.API.DTOs;
+global using Shopify.API.Helpers;
+global using Shopify.API.Implimintation;
+global using System.ComponentModel.DataAnnotations;

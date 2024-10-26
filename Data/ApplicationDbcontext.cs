@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Shopify.API.Data.Configurations;
+﻿using Shopify.API.Data.Configurations;
 
 namespace Shopify.API.Data
 {

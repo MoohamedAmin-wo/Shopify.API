@@ -1,11 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Shopify.API.Abstract;
-using Shopify.API.Data;
-using Shopify.API.Models;
-using System.Linq.Expressions;
-
-namespace Shopify.API.Implimintation
+﻿namespace Shopify.API.Implimintation
 {
 	public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
 	{

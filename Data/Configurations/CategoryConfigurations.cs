@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Shopify.API.Models;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Shopify.API.Data.Configurations
 {

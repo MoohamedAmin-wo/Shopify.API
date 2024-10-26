@@ -1,8 +1,4 @@
-﻿using AutoMapper;
-using Shopify.API.DTOs;
-using Shopify.API.Models;
-
-namespace Shopify.API.Helpers
+﻿namespace Shopify.API.Helpers
 {
 	public class MappingProfile : Profile
 	{
