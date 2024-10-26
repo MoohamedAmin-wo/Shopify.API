@@ -31,11 +31,11 @@ namespace Shopify.API.Implimintation
 
 		public async Task<T?> FindByIdAsync(int id)
 		{
-			return await _entities.FirstAsync(pk => pk.Id == id);
+			return await _entities.SingleOrDefaultAsync(pk => pk.Id == id);
 		}
 		public async Task<T?> FindByCreatriaAsync(Expression<Func<T, bool>> predicate)
 		{
-			return await _entities.FirstAsync(predicate);
+			return await _entities.SingleOrDefaultAsync(predicate);
 		}
 		public async Task<IReadOnlyCollection<T>> FindByCreatriaAsync(Expression<Func<T, bool>> predicate, bool stopTracking = false)
 		{

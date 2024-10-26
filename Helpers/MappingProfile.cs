@@ -11,10 +11,12 @@ namespace Shopify.API.Helpers
             CreateMap<Category , CategoryDTO> ().ReverseMap();
             CreateMap<Category, CategoryDetailsDTO>().ReverseMap();
 
-            CreateMap<Product , ProductDTO> ().ReverseMap();
-            CreateMap<ProductDTO , ProductDetailsDTO>().ReverseMap()
-                .ForMember(opt => opt.Photos , 
-                src => src.Ignore());
+            CreateMap<Product , ProductDTO> ()
+                .ReverseMap()
+                .ForMember(opt => opt.Photos,
+				src => src.Ignore());
+            CreateMap<Product, ProductDetailsDTO>().ReverseMap();
+                
         }
     }
 }
